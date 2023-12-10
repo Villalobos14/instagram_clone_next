@@ -1,0 +1,105 @@
+.container-menu-central{
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+
+.container-menu-central {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+}
+
+.imguser {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.puntos {
+      display: flex;
+      align-items: center;
+  }
+
+.imgpuntos {
+    width: 30px;
+    margin-left: 10px;
+}
+
+h2 {
+    margin: 0;
+}
+
+.container-menu-central {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1{
+    width: 500px;
+    height: 600px;
+}
+
+.text_img{
+    color: white;
+}
+
+
+
+
+
+
+/*css nuevi*/
+.user-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+
+.user-info h1 {
+    flex-grow: 1;
+    font-weight: bold;
+}
+
+.user-info .time {
+    font-weight: normal;
+}
+
+
+/*css del scroll*/
+.container-menu-central {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.conten {
+    max-height: 100vh;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.conten::-webkit-scrollbar {
+    width: 0;
+}

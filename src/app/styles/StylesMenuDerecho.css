@@ -1,0 +1,58 @@
+
+.container-menuDerecho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenidoUser, .sugerencias {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.texto h3 {
+    margin-right: 50px;
+    font-size: 15px;
+}
+
+
+.sugerencias {
+    display: flex;
+    flex-direction: column;
+}
+
+.personas {
+    display: flex;
+    align-items: center;
+
+}
+
+.imguser {
+    width: 30px;
+    margin-right: 40px;
+
+}
+
+.personas p + h4 {
+    margin-left: 60px; /* Espacio entre el último párrafo y el h4 */
+}
+
+.btncambiar{
+    background-color: black;
+    color: #2982cb;
+    border: none;
+}
+
+h4{
+    color: #2982cb;
+
+}
+
+
